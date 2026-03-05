@@ -133,7 +133,7 @@ spec:
               fieldPath: metadata.namespace
         - name: ENFORCE_INTERVAL_MINUTES
           value: '5'
-        imagePullPolicy: Always
+        imagePullPolicy: IfNotPresent
         name: razeedeploy-delta
         livenessProbe:
           exec:
